@@ -1,0 +1,50 @@
+#div1 {
+    background-color: #ba0808;
+    height: 200px;
+    width: 1500px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+div div {
+    margin: 10vh auto;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    
+}
+div {
+    display: flex;
+}
+
+#div2 {
+    background-color: #f7f7f7;
+    height: 200px;
+    width: 1500px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#div3 {
+    background-color: #d10a60;
+    height: 200px;
+    width: 1500px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#div4 {
+    background-color: rgba(76, 145, 69, 0.3);
+    height: 200px;
+    width: 1500px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(128, 0, 58);
+    
+
+
+}
+.box{
+ background-color: rgb(0, 0, 0);
+ height: 300px;
+ display:grid;
+ grid-template-areas:"a1 a2 a5"
+                     "a3 a4 a5";
+grid-template-rows: 100px 600px;
+grid-template-columns:200px 1100px 150px ;                   
+                     
+
+}
+
+
+.a1 {
+    background-color: #96505B;
+    grid-area: a1;
+}
+.a2{
+    background-color: aquamarine;
+    grid-area: a2;
+}
+.a3{
+    background-color: fuchsia;
+    grid-area: a3;
+}
+.a4{
+    background-color: darksalmon;
+    grid-area: a4;
+}
+.a5{
+    background-color: rgb(0, 255, 89);
+    grid-area: a5;
+}

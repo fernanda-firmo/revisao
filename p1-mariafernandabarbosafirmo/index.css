@@ -1,0 +1,172 @@
+body{
+    /*questão 1 */
+    background-color:white;
+    margin:0 ;
+    border: 3px solid black;
+    font-size: 15px;
+    color:black
+}
+
+h1{
+    /*questão 2 */
+    background-color: yellow;
+}
+.c1{
+    /*questão 3 */
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 100px;
+    width:800px;
+}
+/*questão 4 */
+.c2{
+    background-color: white;
+    margin-left: 30px;
+    text-align: center;
+    height: 100px;}
+.c3{
+    background-color: red;
+    margin-left: 30px;
+    text-align: center;
+    height: 100px;
+
+}
+.c4{
+    background-color: black;
+    margin-left: 30px;
+    text-align: center;
+    height: 100px;
+
+}
+div > p{
+    background-color: green;
+    width: 100px;
+    margin-right: 0;
+    margin-left: auto;
+}
+/*questão 5*/
+#id1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 95, 247);
+    margin: 50px;
+}
+#id2{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(7, 227, 40);
+    margin: 100px;
+}
+#id3{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(250, 21, 21);
+    margin: 200px;
+}
+#id1 p{
+    background-color: white;
+    text-align: left;
+}
+#id2 p{
+    background-color: white;
+    text-align: right;
+}
+/*questão 6*/
+.box{
+    background-color: rgb(255, 83, 112);
+    width: 800px;
+    height: 800px;
+    border: 3px solid black;
+}
+/*questão 7*/
+#dif{
+    background-color: green;
+    height: 300px;
+}
+/*questão 8*/
+.center{
+    background-color: rgb(145, 145, 254);
+    border: 10px solid black;
+}
+.img{
+    margin-left: 600px;}
+/*questão 9*/
+    .q1{
+        background-color: rgba(255, 99, 71, 0.2);
+        width: 250px;
+        height:250px;
+    }
+    .q2{
+        background-color: rgba(255, 99, 71, 0.4);
+        width: 200px;
+        height:200px;
+    }
+    .q3{
+        background-color: rgba(255, 99, 71, 0.6);
+        width: 150px;
+        height:150px;
+    }
+    .q4{
+        background-color: rgba(255, 99, 71, 0.8);
+        width: 100px;
+        height:100px;
+    }
+    /*questão 10*/
+    .cl1{
+        background-color: blue;
+        height: 100px;
+        width:100px;
+        color:yellow;
+
+    }
+    .cl2{
+        background-color: green;
+        height: 150px;
+        width: 150px;
+        color:rgb(28, 46, 0)
+    }
+       
+    .cl3{
+        background-color: yellow;
+        height: 160px;
+        width: 160px;
+        color:red
+    }
+    
+    .cl4{
+        background-color: #ee82ee;
+        width: 180px;
+        height: 180px;
+        color: rgb(80, 80, 80);
+        }
+
+        /*questão 10 a)*/
+        #pr1{
+            font-size: 150px;
+            color: rgb(255, 137, 255);
+        }
+        /*questão 12 */
+        
+        #grid{
+            display: grid;
+            grid-template-rows: 1200px;
+            grid-template-columns: 100px 200px auto;
+            grid-template-areas: "a1 a2 a3";
+            }
+            .a1{
+            background-color: purple;
+            text-align: center;
+            }
+            .a2{
+            background-color: brown;
+            }
+            .a3{
+            
+            background-color: gray;
+            }
+            
+            #txt{
+            margin-top: 600px;
+            background-color: purple;
+
+            
+            }

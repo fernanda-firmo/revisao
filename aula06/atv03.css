@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(128, 0, 58);
+    
+
+
+}
+.box{
+
+ background-color: rgb(0, 0, 0);
+ height: 300px;
+ display:grid;
+ grid-template-areas:"a1 a2 a5"
+                     "a3 a4 a5";
+grid-template-rows: 200px 600px;
+grid-template-columns:200px 1100px 150px ;                   
+                     
+
+}
+
+
+.a1 {
+    background-color:#E5BFBE;
+    grid-area: a1;
+    background-image: url(gatinhopitico.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.a2{
+    background-color: #C4F1C8;
+    grid-area: a2;
+    text-align: center;
+    
+
+}
+
+.a2 > p{
+    margin-left:100px ;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.a3{
+    background-color:#B9A3BA;
+    grid-area: a3;
+}
+.a4{
+    background-color: #D7ACC0;
+    grid-area: a4;
+}
+.a5{
+    background-color: #EEE9D7;
+    grid-area: a5;
+}

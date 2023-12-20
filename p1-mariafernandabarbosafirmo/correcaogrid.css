@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    grid-template-areas: "A1 A2 A3";
+    grid-template-columns: 100px 200px 1fr;
+    grid-template-rows: 100vh;
+}
+
+.A1{
+    grid-area: A1;
+    background-color: purple;
+    text-align: center;
+}
+
+.A1 p{
+    margin-top: 50vh; 
+}
+
+.A2{
+    grid-area: A2;
+    background-color: brown;
+}
+
+.A3{
+    grid-area: A3;
+    background-color: gray;
+}

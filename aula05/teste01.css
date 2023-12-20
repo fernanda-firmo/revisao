@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+
+
+h1 {
+    color: rgb(241, 9, 9);
+    margin-left: 600px;
+    background-color:white;
+    padding: 5px;
+    height: 30px;
+    width:300px;
+    text-align: center;
+    margin-top:50px;
+
+
+  }
+
+#header{
+
+    background-color: rgb(56, 246, 116);
+    height: 150px;
+    border: 2px solid rgb(146, 0, 0);
+    margin: 5px;
+    padding: 5px;
+}
+#fora{
+
+    background-color: rgb(238, 255, 0);
+    height: 500px;
+    border: 2px solid rgb(146, 0, 0);
+    margin: 5px;
+    padding: 5px;
+
+}
+#divmarrom{
+    background-color: rgb(121, 31, 1);
+    height: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-top:15px ;
+    
+}
+
+#divroxa{
+    background-color: rgb(128, 14, 173);
+    height: 70px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-top:15px ;
+    width:350px
+
+}
+#divazul{
+    background-color: rgb(78, 60, 127);
+    height: 70px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-top:15px ;
+    width:400px;
+}
+#divvermelha{
+    background-color: rgb(188, 1, 1);
+    height:70px;
+    margin-left: 450px;
+    padding: 5px;
+    margin-top:15px ;
+    width:400px;
+}
+
+#divverde{
+    background-color: rgb(129, 250, 69);
+    height:70px;
+    margin-left: 900px;
+    padding: 5px;
+    margin-top:15px ;
+    width:400px;
+}
+
+#divred{
+    background-color: rgb(255, 0, 0);
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+#dividk{
+    background-color: rgb(106, 255, 0);
+    height: 15px;
+    margin-left: 5px;
+    padding: 5px;
+}
+p{
+    text-align: center;
+}
+

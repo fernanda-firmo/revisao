@@ -1,0 +1,48 @@
+.bloco{
+    display:grid;
+    grid-template-areas:"a a"
+                        "b c"
+                        "f f" ;
+  grid-template-columns: 66.66% 33.33%;
+  grid-template-rows: 100px 500px 100px;                  
+
+}
+.header{
+    background-color: blueviolet;
+    grid-area: a;
+} 
+.lateral{
+    background-color: aqua;
+    grid-area:c;
+}
+.section{
+    background-color: crimson;
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    background-color: chartreuse;
+    grid-area:f;
+    display: flex;
+}
+
+.c1, .c2, .c3{
+    width: 100%;
+    height: 33.33%;
+    background-color: black;
+}
+
+.c2{
+    background-color: blue;
+}
+
+.f1, .f2, .f3{
+    width: 33.33%;
+    height: 100%;
+    background-color: lawngreen;
+}
+
+.f2{
+    background-color: green;
+}
